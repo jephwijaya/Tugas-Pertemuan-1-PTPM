@@ -6,4 +6,7 @@
 
     <string name="email">Email</string>
     <string name="password">Password</string>
+
+    <string name="blog_pv">Tokopedia</string>
+    <string name="blog_content">Tokopedia merupakan perusahaan perdagangan elektronik atau sering disebut toko daring. Sejak didirikan pada tahun 2009, Tokopedia telah bertransformasi menjadi sebuah unicorn yang berpengaruh tidak hanya di Indonesia tetapi juga di Asia Tenggara. Hingga saat ini, Tokopedia termasuk marketplace yang paling banyak dikunjungi oleh masyarakat Indonesia.</string>
 </resources>

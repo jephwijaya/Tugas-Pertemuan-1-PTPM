@@ -2,9 +2,11 @@ package com.project.ptpm;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -26,40 +28,12 @@ public class MainActivity extends AppCompatActivity {
         btn_login = (Button) findViewById(R.id.btn_login);
         btn_daftar = (Button) findViewById(R.id.btn_daftar);
 
-//        tx_email_content.addTextChangedListener(new TextWatcher() {
-//            @Override
-//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-//
-//            }
-//
-//            @Override
-//            public void onTextChanged(CharSequence s, int start, int before, int count) {
-//
-//            }
-//
-//            public void afterTextChanged(Editable edt) {
-//                if (tx_email_content.getText().length() > 0) {
-//                    tx_email_content.setError(null);
-//                }
-//            }
-//        });
-//
-//        tx_password_content.addTextChangedListener(new TextWatcher() {
-//            @Override
-//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-//
-//            }
-//
-//            @Override
-//            public void onTextChanged(CharSequence s, int start, int before, int count) {
-//
-//            }
-//
-//            public void afterTextChanged(Editable edt) {
-//                if (tx_password_content.getText().length() > 0) {
-//                    tx_password_content.setError(null);
-//                }
-//            }
-//        });
+        btn_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), ContentActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

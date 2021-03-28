@@ -10,4 +10,7 @@
 
 <!--    Button Color-->
     <color name="gray">#D3D3D3</color>
+
+<!--    Linear Color-->
+    <color name="cyan">#00CED1</color>
 </resources>
